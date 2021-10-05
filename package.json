@@ -9,7 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "gh-pages": "ng build --prod -- --base-href 'https://github.com/ArmentaUlises/LogicaDifusa-UNRAF.git'"
   },
   "private": true,
   "dependencies": {
